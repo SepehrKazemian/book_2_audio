@@ -1,0 +1,53 @@
+# Data Files
+*.pkl
+*.pdf
+*.png
+*.mp3
+*.wav
+*.csv
+*.tsv
+*.txt # Be careful with this, might ignore desired text files like requirements.txt if not specific enough
+data/
+book1/
+
+# Model Files & Checkpoints
+*.pth
+*.pt
+*.bin
+*.safetensors
+llm_finetuning/training/finetuning_checkpoints*/
+llm_finetuning/training/fine_tuned_model/
+
+# Python Cache & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+*.env
+env/
+
+# Logs & Temporary Files
+*.log
+events*
+*.tmp
+*.swp
+*.swo
+
+# Archives
+*.tar*
+*.zip
+*.gz
+*.rar
+
+# Configs (if sensitive)
+# *.json # Commented out as it might ignore necessary configs like package.json
+
+# Notebooks & Unused Code (if desired)
+*.ipynb # Already moved, but good to ignore if they reappear
+unused_code/
+
+# OS-specific
+.DS_Store
+Thumbs.db
